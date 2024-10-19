@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/code-slash.svg"> 
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,8 +16,10 @@
 <body>
     <!-- Menú -->
     <header class="cabecera">
-        <img class="cabecera__logo" src="assets/vector.png" alt="Logo">
-        <h1 class="cabecera__titulo">Alura Latam</h1>
+        <div class="cabecera__inicio">
+            <img class="cabecera__logo" src="assets/vector.png" alt="Logo">
+            <h1 class="cabecera__titulo">Rodolfo Gonzalez</h1>
+        </div>
         <nav class="navegacion">
             <ul class="navegacion__lista">
                 <li class="navegacion__elemento"><a href="#sobre-mi">Sobre mí</a></li>
@@ -33,12 +36,12 @@
     <section class="presentacion">
         <img class="presentacion__foto" src="assets/profile.jpeg" alt="Foto de perfil">
         <div class="presentacion__contenedor">
-            <h2 class="presentacion__titulo">Hola, mi nombre es Alura Latam y construyo páginas web</h2>
-            <p class="presentacion__subtitulo">Soy formada en... lorem ipsum sit amet consectetur y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
+            <h2 class="presentacion__titulo">Hola, mi nombre es Rodolfo Gonzalez y construyo páginas web</h2>
+            <p class="presentacion__subtitulo">Soy formado en desarrollo fullstack y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
             <ul class="redes">
-                <li class="redes__img"><a href="">Github <img src="assets/arrow.png" alt="Flecha"></a></li>
-                <li class="redes__img"><a href="">Linkedin <img src="assets/arrow.png" alt="Flecha"></a></li>
-                <li class="redes__img"><a href="">Currículo <img src="assets/arrow.png" alt="Flecha"></a></li>
+                <li class="redes__img"><a href="">Github <img src="assets/github.svg" alt="Github"></a></li>
+                <li class="redes__img"><a href="">Linkedin <img src="assets/linkedin.svg" alt="linkedin"></a></li>
+                <li class="redes__img"><a href="">Currículo <img src="assets/filetype-pdf.svg" alt="Curriculo"></a></li>
             </ul>
         </div>
     </section>
@@ -46,10 +49,8 @@
     <!-- Sección sobre mí -->
     <section class="sobre-mi" id="sobre-mi">
         <h2 class="sobre-mi__titulo">Sobre mí</h2>
-        <p class="sobre-mi__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia.</p>
-        <p class="sobre-mi__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
-        <!-- Firma opcional -->
-        <img class="sobre-mi__firma" src="assets/signature.png" alt="Firma">
+        <p class="sobre-mi__texto"> Me defino por ser una persona comprometida con el aprendizaje continuo, con habilidades analíticas sólidas y capacidad de adaptación, cuento con conocimientos en el ámbito de programación Front-end y Back-end, abarcando el area de diseño y desarrollo web.</p>
+        <img class="sobre-mi__firma" src="assets/firmado.png" alt="Firma">
     </section>
 
     <!-- Sección de Habilidades -->
@@ -57,19 +58,19 @@
         <h2 class="habilidades__titulo">Habilidades</h2>
         <ul class="habilidades__lista">
             <li class="habilidades__elemento">
-                <img class="habilidades__icono" src="assets/html.png" alt="HTML">
+                <img class="habilidades__icono" src="assets/html5.png" alt="HTML">
                 <p class="habilidades__nombre">HTML 5</p>
             </li>
             <li class="habilidades__elemento">
-                <img class="habilidades__icono" src="assets/js_icon.png" alt="JavaScript">
+                <img class="habilidades__icono" src="assets/dev_js.png" alt="JavaScript">
                 <p class="habilidades__nombre">JavaScript</p>
             </li>
             <li class="habilidades__elemento">
-                <img class="habilidades__icono" src="assets/php_icon.png" alt="PHP">
-                <p class="habilidades__nombre">PHP</p>
+                <img class="habilidades__icono" src="assets/bootstrap.svg" alt="Bootstrap">
+                <p class="habilidades__nombre">Bootstrap</p>
             </li>
             <li class="habilidades__elemento">
-                <img class="habilidades__icono" src="assets/nodejs_icon.png" alt="Node.js">
+                <img class="habilidades__icono" src="assets/node_js.png" alt="Node.js">
                 <p class="habilidades__nombre">Node.js</p>
             </li>
             <li class="habilidades__elemento">
@@ -77,7 +78,7 @@
                 <p class="habilidades__nombre">React</p>
             </li>
             <li class="habilidades__elemento">
-                <img class="habilidades__icono" src="assets/css_icon.png" alt="CSS">
+                <img class="habilidades__icono" src="assets/css-file.png" alt="CSS">
                 <p class="habilidades__nombre">CSS</p>
             </li>
         </ul>
@@ -88,28 +89,28 @@
         <h2 class="aficiones__titulo">Aficiones</h2>
         <ul class="aficiones__lista">
             <li class="aficiones__elemento">
-                <img class="aficiones__icono" src="assets/skate_icon.png" alt="Patinaje">
-                <p class="aficiones__nombre">Patinaje</p>
+                <img class="aficiones__icono" src="assets/film.svg" alt="Peliculas">
+                <p class="aficiones__nombre">Peliculas</p>
             </li>
             <li class="aficiones__elemento">
-                <img class="aficiones__icono" src="assets/guitar_icon.png" alt="Tocar bajo">
-                <p class="aficiones__nombre">Tocar bajo</p>
+                <img class="aficiones__icono" src="assets/controller.svg" alt="Videojuegos">
+                <p class="aficiones__nombre">Videojuegos</p>
             </li>
             <li class="aficiones__elemento">
-                <img class="aficiones__icono" src="assets/headphones_icon.png" alt="Oír música">
+                <img class="aficiones__icono" src="assets/headphones.svg" alt="Oír música">
                 <p class="aficiones__nombre">Oír música</p>
             </li>
             <li class="aficiones__elemento">
-                <img class="aficiones__icono" src="assets/tv_icon.png" alt="Ver series">
+                <img class="aficiones__icono" src="assets/tv.svg" alt="Ver series">
                 <p class="aficiones__nombre">Ver series</p>
             </li>
             <li class="aficiones__elemento">
-                <img class="aficiones__icono" src="assets/forkspoon_icon.png" alt="Cocinar">
-                <p class="aficiones__nombre">Cocinar</p>
+                <img class="aficiones__icono" src="assets/airplane-engines.svg" alt="Viajar">
+                <p class="aficiones__nombre">Viajar</p>
             </li>
             <li class="aficiones__elemento">
-                <img class="aficiones__icono" src="assets/camera_icon.png" alt="Tomar fotos">
-                <p class="aficiones__nombre">Tomar fotos</p>
+                <img class="aficiones__icono" src="assets/pizza.svg" alt="Pizza">
+                <p class="aficiones__nombre">Comer</p>
             </li>
         </ul>
     </section>
@@ -119,24 +120,29 @@
         <h2 class="formacion__titulo">Formación académica</h2>
         <ul class="formacion__lista">
             <li class="formacion__elemento">
-                <img class="formacion__icono" src="assets/logo_iupsm.png" alt="UFPR">
-                <div>
-                    <h3 class="formacion__nombre">Análisis de datos</h3>
-                    <p class="formacion__detalle">2018 - UFPR</p>
+                <div class="formacion__icono">
+                    <img class="formacion__img" src="assets/alura_logo.jfif" alt="alura">
+                </div>
+                <div>Especializacion Front-end</h3>
+                    <p class="formacion__detalle">2024 - En curso / Alura Latam programa ONE</p>
                 </div>
             </li>
             <li class="formacion__elemento">
-                <img class="formacion__icono" src="assets/alura_logo.png" alt="Alura">
+                <div class="formacion__icono">
+                    <img class="formacion__img" src="assets/coderhouse.png" alt="coderhouse">
+                </div>
                 <div>
-                    <h3 class="formacion__nombre">Formación en UX Design</h3>
-                    <p class="formacion__detalle">2019 - Alura</p>
+                    <h3 class="formacion__nombre">Desarrollador FullStack</h3>
+                    <p class="formacion__detalle">2021 - 2022 / Coder House</p>
                 </div>
             </li>
             <li class="formacion__elemento">
-                <img class="formacion__icono" src="assets/coderhouse.png" alt="UFRJ">
+                <div class="formacion__icono">
+                    <img class="formacion__img" src="assets/logo_iupsm.png" alt="iupsm">
+                </div>
                 <div>
-                    <h3 class="formacion__nombre">Posgrado en diseño</h3>
-                    <p class="formacion__detalle">En curso - UFRJ</p>
+                    <h3 class="formacion__nombre">Ingeniero Electrónico</h3>
+                    <p class="formacion__detalle">2006 - 2012 / IUPSM</p>
                 </div>
             </li>
         </ul>
@@ -145,26 +151,63 @@
     <!-- Sección de Proyectos -->
     <section class="proyectos" id="proyectos">
         <h2 class="proyectos__titulo">Experiencia Profesional</h2>
-        <div class="proyectos__contenedor">
-            <h3 class="proyectos__nombre">Título de la Experiencia</h3>
-            <p class="proyectos__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quisquam unde repudiandae fugiat, earum temporibus!</p>
-        </div>
-        <div class="proyectos__contenedor">
-            <h3 class="proyectos__nombre">Título de la Experiencia</h3>
-            <p class="proyectos__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quisquam unde repudiandae fugiat, earum temporibus!</p>
-        </div>
+        <ul class="proyectos__lista">
+            <li class="proyectos__contenedor">
+                <img class="proyectos__img" src="assets/encriptador.jpg" alt="proyecto">
+                <div class="proyectos__texto">
+                    <h3 class="proyectos__nombre">Proyecto de Encriptador de texto</h3>
+                    <p class="proyectos__descripcion">Encriptador de texto presentado como reto en proyecto ONE de Alura Latam desarrollado con html, css y JavaScript</p>
+                </div>
+            </li>
+            <li class="proyectos__contenedor">
+                <img class="proyectos__img" src="assets/portafolio 1.0.jpg" alt="proyecto">
+                <div class="proyectos__texto">
+                    <h3 class="proyectos__nombre">Portafolio 1.0</h3>
+                    <p class="proyectos__descripcion">Portafolio presentado como reto en proyecto ONE de Alura Latam, desarrollado con html y css</p>
+                </div>
+            </li>
+            <li class="proyectos__contenedor">
+                <img class="proyectos__img" src="assets/ecommerce 2.0.jpg" alt="proyecto">
+                <div class="proyectos__texto">
+                    <h3 class="proyectos__nombre">Ecommerce 2.0</h3>
+                    <p class="proyectos__descripcion">Ecommerce de Juegos de consola presentado como proyecto final en curso de desarrollo en Coder House, desarrollado con react y JavaScript</p>
+                </div>
+            </li>
+            <li class="proyectos__contenedor">
+                <img class="proyectos__img" src="assets/ecommerce 1.0.jpg" alt="proyecto">
+                <div class="proyectos__texto">
+                    <h3 class="proyectos__nombre">Ecommerce 1.0</h3>
+                    <p class="proyectos__descripcion">Ecommerce de Juegos de consola presentado como proyecto final en curso de desarrollo de JavaScript en Coder House</p>
+                </div>
+            </li>
+            <li class="proyectos__contenedor">
+                <img class="proyectos__img" src="assets/iluminacion.jpg" alt="proyecto">
+                <div class="proyectos__texto">
+                    <h3 class="proyectos__nombre">Venta Led</h3>
+                    <p class="proyectos__descripcion">Proyecto de venta de equipos de iluminacion led, presentado como proyecto final en curso de desarrollo web en Coder House</p>
+                </div>
+            </li>
+        </ul>
     </section>
 
     <!-- Sección de Contacto -->
     <section class="contacto" id="contacto">
-        <h2 class="contacto__titulo">Contacto</h2>
-        <form class="contacto__formulario">
-            <input class="contacto__campo" type="text" placeholder="Nombre">
-            <input class="contacto__campo" type="email" placeholder="Correo Electrónico">
-            <textarea class="contacto__campo contacto__campo--textarea" placeholder="Mensaje"></textarea>
-            <button class="contacto__boton" type="submit">Enviar</button>
-        </form>
+        <img class="contacto__img" src="assets/Contacto.jpg" alt="contacto">
+        <div>
+            <h2 class="contacto__titulo">Contacto</h2>
+            <p class="contacto__texto">¿Quieres contactarme? Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+            <form class="contacto__formulario">
+                <input class="contacto__campo" type="text"  required placeholder="Nombre">
+                <input class="contacto__campo" type="email" required placeholder="Correo Electrónico">
+                <input class="contacto__campo" type="asunto" required placeholder="Asunto">
+                <textarea class="contacto__campo contacto__campo--textarea" required placeholder="Mensaje"></textarea>
+                <button class="contacto__boton" type="submit">Enviar</button>
+            </form>
+        </div>
     </section>
+    <footer class="footer">
+        <h2 class="footer__titulo">Desarrollado por Rodolfo Gonzalez - 2024</h2>
+    </footer>
 </body>
     <script src="script.js"></script>
 </html>
