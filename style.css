@@ -422,14 +422,18 @@ p {
     display: none;
 }
 
-.contacto__boton {
+.boton {
+    display: flex;
     width: 144px;
+    align-items: center;
     height: 55px;
-    gap: 10px;
+    justify-content: center;
     background-color: #2A7AE4;
     color: #ffffff;
+    font-size: 14px;
     border-radius: 10px;
     border: none;
+    line-height: 16.44px;
 }
 
 /*---------------footer---------------------------------------------------------------*/
