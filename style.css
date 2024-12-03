@@ -333,7 +333,8 @@ p {
 }
 
 .proyectos__contenedor:nth-child(2),
-.proyectos__contenedor:nth-child(4) {
+.proyectos__contenedor:nth-child(4),
+.proyectos__contenedor:nth-child(6) {
     flex-direction: column;
 }
 
@@ -662,7 +663,8 @@ p {
     }
 
     .proyectos__contenedor:nth-child(2),
-    .proyectos__contenedor:nth-child(4) {
+    .proyectos__contenedor:nth-child(4),
+    .proyectos__contenedor:nth-child(6) {
         flex-direction: row-reverse;
     }
 
